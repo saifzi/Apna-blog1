@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    padding: 8px;
+}
+
+.container2{
+           background-color: #f2f2f2;
+           padding: 5px 20px 15px 20px;
+           border: 1px solid lightgray;
+           border-radius: 4px;
+}
+
+
+.owner{
+    text-align: center;
+    font-size: 200%;
+    font-family:monospace;
+    margin: 0;
+}
+
+#profile{
+    position: relative;
+    left: 38%;
+    border-radius: 50%;
+}
+
+
+.names{
+    font-size: 270%;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 4%;
+    word-spacing: 10%;
+    margin: 10px 0px 18px 0px;
+
+
+
+}
+
+.social{
+    text-align: center;
+}
+
+.social a{
+    text-align: center;
+ /*   background-color: rgba(116, 116, 116, 0.466);
+    padding: 6px 10px;
+    border-radius: 30%;
+    margin: 2px 4px; */
+    text-decoration: none;
+}
+
+.social a:hover{
+    background-color: rgba(136, 136, 136, 0.719);
+}
+
+.instagram{
+    color:#dd2a7b ;
+}
+
+.twitter{
+    color: #0e76a8;
+}
+
+.yt{
+    color: #ff0000;
+}
+
+
+.middev{
+    text-align: center;
+    font-family: cursive;
+    padding: 5px;
+    font-size: 120%;
+}
+
+.hrb{
+    width:50%;
+}
+
+.edu{
+    text-align: center;
+}
+
+.edu span{
+    font-size: 120%;
+    color: #f2f2f2;
+    background-color: rgb(116, 7, 167);
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.SPI{
+    text-decoration: none;
+}
+
+
+.edup{
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .social a{
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+}
